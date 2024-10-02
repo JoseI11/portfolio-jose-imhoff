@@ -24,11 +24,56 @@
 
 This a project for building, deploying, and showing to anyone. Have a nice day. 😉😊😊😉
 
-## Installation
+## Initialization of the proyect
 
-Use the initialization CLI to create the site:
+Node.js installed on your system, you can <a href="https://nodejs.org/en/download/package-manager">download it</a> here. npm package manager, which is automatically installed with Node.js.
+
+#### 1. Installation
+
+Clone this repository in your local machine
+```bash
+https://github.com/JoseI11/portfolio-jose-imhoff.git
+```
+
+Navigate to the folder of the proyect
+```bash
+cd folder proyect
+```
+<div align="center">
+  <p align="center">
+    <h3>
+      Initialization of the Front proyect
+    </h3>
+  </p>
+  
+</div>
+
+#### 1. Installation
+
+Install all the dependences of the proyect
 
 ```bash
-npm init portfolio-jose-imhoff@latest
+npm install
 ```
+<div align="center">
+  <p align="center">
+    <h3>
+      Initialization of the Back proyect
+    </h3>
+  </p>
+  
+</div>
+
+Navigate to the folder of the proyect 
+```bash
+cd Backend
+```
+#### 1. Installation
+
+Install all the dependences of the proyect
+
+```bash
+npm install
+
+
 

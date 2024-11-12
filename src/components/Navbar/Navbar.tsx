@@ -15,7 +15,7 @@ export const Navbar = () => {
     };
     return (
 
-        <nav className="bg-gradient-to-l from-bright-blue via-light-blue to-white p-4">
+        <nav className="bg-gradient-to-l from-orange-500 via-amber-800 to-orange-600 p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <Link to="#" className="text-white text-lg font-bold w-44 max-sm:w-32">
                     <img src={iconjoseimhoff} className="w-full object-cover object-center"></img>

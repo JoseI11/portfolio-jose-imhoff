@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <main className="text-gray-400 bg-gradient-to-r from-light-blue via-bright-blue to-white ">
+    <main className="text-gray-400 bg-gradient-to-r from-orange-500 via-amber-800 to-orange-600 ">
       <BrowserRouter>
       <Navbar />
         <Routes>

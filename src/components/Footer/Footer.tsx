@@ -4,7 +4,7 @@ import linkedinIcon from "../../assets/Social Networks/linkedin_socialnetwork_17
 
 export const Footer = () => {
     return (
-        <footer className="flex justify-between items-center bg-gradient-to-r from-light-blue via-bright-blue to-white h-44">
+        <footer className="flex justify-between items-center bg-gradient-to-r from-orange-500 via-amber-800 to-orange-600 h-44">
             <h5 className="text-slate-950 font-sans font-semibold m-6">Made by José Imhoff 2024🔨</h5>
       
             <div className="flex space-x-4 m-6 md:space-x-9">

@@ -5,10 +5,13 @@ export default {
   
   theme: {
     extend: {
-      colors:{
-        'light-blue':'#E9F1FA',
-        'bright-blue':'#00ABE4',
-        'white':'#FFFFFF'
+      fontFamily: {
+        sans: ['Merriweather', 'serif'], // Reemplaza "Poppins" con tu fuente
+      },
+      colors: {
+        'DarkOrange':'#F68A21',
+        'Orange':'#FFBC0F',
+        'NavyBlue':'#001F3F'
       }
     },
   },

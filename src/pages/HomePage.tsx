@@ -20,13 +20,6 @@ export const HomePage = () => {
             Download CV
           </a>
 
-          <a
-            href="contact" 
-           
-            className="bg-orange-900 text-white px-6 py-3 rounded-lg hover:bg-red-500 transition-all duration-300"
-          >
-            Contact me
-          </a>
         </div>
       </div>
       <div className=" lg:max-w-lg lg:w-full">

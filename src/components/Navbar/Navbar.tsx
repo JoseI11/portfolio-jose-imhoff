@@ -9,21 +9,11 @@ export const Navbar = () => {
   };
 
   return (
-    <nav>
-      {/* Menú */}
-      <div
-        className={`${
-          isMenuOpen ? "flex" : "hidden"
-        } h-screen w-full fixed top-0 right-0 bg-white flex-col items-center justify-center sm:h-36 sm:w-auto sm:justify-between sm:right-5 p-4`}
-      >
-        {/* Botón para cerrar el menú */}
-        <button
-          onClick={toggleMenu}
-          className="absolute top-4 right-4 text-2xl text-red-600 focus:outline-none"
-        >
-          ✕
-        </button>
+    <nav className="flex justify-center items-center">
 
+      <div
+        className=" gap-4"
+      >
         <Link
           to="/"
           onClick={toggleMenu}
@@ -46,19 +36,6 @@ export const Navbar = () => {
           Contact
         </Link>
       </div>
-
-      {/* Botón hamburguesa */}
-      {
-        !isMenuOpen && (
-                <button
-        onClick={toggleMenu}
-        className="fixed top-4 right-4 text-2xl text-red-600 focus:outline-none"
-      >
-        ☰
-      </button>
-        )
-      }
-
     </nav>
   );
 };
